@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — ማሕሌት ዘቅዱስ ያሬድ</title>
+    <link rel="icon" href="logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wght@500;700&family=Noto+Sans+Ethiopic:wght@400;600&family=Cormorant+Garamond:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --parchment-light: #fbf1d9;
+        --parchment: #f1ddb0;
+        --vellum: #e6ce9b;
+        --vellum-deep: #d9bc80;
+        --gold: #c09436;
+        --gold-dark: #7c5516;
+        --ink: #3b1e08;
+        --crimson: #a3161b;
+        --teal: #1e5f78;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        min-height: 100vh;
+        color: var(--ink);
+        font-family: "Cormorant Garamond", "Noto Sans Ethiopic", Georgia, serif;
+        font-size: 19px;
+        line-height: 1.75;
+        background: radial-gradient(
+            ellipse at center,
+            var(--vellum) 40%,
+            var(--vellum-deep) 100%
+          )
+          fixed;
+      }
+      .page {
+        max-width: 780px;
+        margin: 0 auto;
+        padding: 2.5rem 1.25rem 3rem;
+      }
+      .sheet {
+        background: radial-gradient(
+          ellipse at center,
+          var(--parchment-light),
+          var(--parchment)
+        );
+        border: 2px solid var(--gold-dark);
+        border-radius: 6px;
+        padding: 6px;
+        box-shadow: 0 10px 30px rgba(59, 30, 8, 0.25);
+      }
+      .sheet-inner {
+        border: 1px solid var(--gold);
+        border-radius: 3px;
+        padding: 2.5rem 2rem;
+      }
+      header {
+        text-align: center;
+      }
+      .logo {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid var(--gold);
+        box-shadow:
+          0 0 0 3px var(--parchment-light),
+          0 0 0 5px var(--gold-dark);
+      }
+      .app-name {
+        display: block;
+        margin-top: 1.4rem;
+        font-family: "Noto Serif Ethiopic", serif;
+        font-weight: 700;
+        font-size: clamp(1.9rem, 6vw, 2.8rem);
+        line-height: 1.3;
+        color: var(--crimson);
+      }
+      .sub {
+        font-family: "Noto Serif Ethiopic", serif;
+        color: var(--teal);
+        font-weight: 700;
+        font-size: 1.05rem;
+        margin-top: 0.2rem;
+      }
+      .title {
+        margin-top: 1.2rem;
+        font-size: 1rem;
+        letter-spacing: 0.25em;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: var(--gold-dark);
+      }
+      .date {
+        font-size: 0.9rem;
+        opacity: 0.75;
+      }
+      .rule {
+        display: flex;
+        align-items: center;
+        gap: 0.8rem;
+        margin: 1.8rem 0;
+        color: var(--gold-dark);
+      }
+      .rule::before,
+      .rule::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(
+          90deg,
+          transparent,
+          var(--gold-dark),
+          transparent
+        );
+      }
+      .intro {
+        font-family: "Noto Sans Ethiopic", sans-serif;
+        font-size: 0.95rem;
+        line-height: 1.9;
+        text-align: center;
+        opacity: 0.9;
+      }
+      .promise {
+        margin: 1.8rem 0 0.5rem;
+        padding: 1.3rem 1.2rem;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.35);
+        border: 1px solid var(--gold);
+        border-top: 3px solid var(--crimson);
+        border-radius: 4px;
+      }
+      .promise h2 {
+        margin: 0 0 0.6rem;
+        font-size: 1.35rem;
+        color: var(--crimson);
+      }
+      .promise ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.4rem 1.4rem;
+        font-weight: 600;
+      }
+      .promise li::before {
+        content: "✦ ";
+        color: var(--gold);
+      }
+      section {
+        margin-top: 2rem;
+      }
+      h2 {
+        font-family: "Noto Serif Ethiopic", serif;
+        font-weight: 700;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        color: var(--crimson);
+        margin-bottom: 0.4rem;
+      }
+      h2 span {
+        font-family: "Cormorant Garamond", serif;
+        font-style: italic;
+        font-size: 0.95rem;
+        color: var(--gold-dark);
+        margin-right: 0.5rem;
+      }
+      p {
+        margin-bottom: 0.8rem;
+      }
+      ul.plain {
+        margin: 0.4rem 0 0.8rem 1.2rem;
+      }
+      ul.plain li {
+        margin-bottom: 0.3rem;
+      }
+      ul.plain li::marker {
+        color: var(--gold-dark);
+      }
+      strong {
+        color: var(--teal);
+      }
+      .contact {
+        margin-top: 2.2rem;
+        padding: 1.6rem 1.2rem;
+        text-align: center;
+        background: var(--ink);
+        color: var(--parchment);
+        border-radius: 4px;
+        border: 2px solid var(--gold);
+      }
+      .contact h2 {
+        color: var(--gold);
+        margin-bottom: 0.5rem;
+      }
+      .contact a {
+        color: var(--parchment-light);
+        font-weight: 700;
+        border-bottom: 1px solid var(--gold);
+        text-decoration: none;
+      }
+      .contact a:hover {
+        color: var(--gold);
+      }
+      footer {
+        margin-top: 1.5rem;
+        text-align: center;
+        font-size: 0.85rem;
+        color: var(--gold-dark);
+      }
+      @media (max-width: 560px) {
+        body {
+          font-size: 17.5px;
+        }
+        .sheet-inner {
+          padding: 1.8rem 1.1rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="sheet">
+        <div class="sheet-inner">
+          <header>
+            <img class="logo" src="logo.png" alt="ማሕሌት ዘቅዱስ ያሬድ logo" />
+            <span class="app-name">ማሕሌት ዘቅዱስ ያሬድ</span>
+            <p class="sub">Mahilet Ze-Kidus Yared</p>
+            <p class="title">Privacy Policy</p>
+            <p class="date">Effective date: October 6, 2026</p>
+          </header>
+
+          <div class="rule">❖</div>
+
+          <p class="intro">
+            ማኅሌት የቅዱስ ያሬድን ሥርዓተ ዋዜማ እና ሥርዓተ ማኅሌት በየወሩ በዓላት በቀላሉ ለማንበብ፣ ለማጋራት እና
+            በፒዲኤፍ ለማስቀመጥ የተዘጋጀ መተግበሪያ ነው። ይህ መተግበሪያ ከእርስዎ ምንም ዓይነት መረጃ አይሰበስብም።
+          </p>
+
+          <div class="promise">
+            <h2>Our promise</h2>
+            <ul>
+              <li>No account</li>
+              <li>No data collected</li>
+              <li>No ads</li>
+              <li>No tracking</li>
+            </ul>
+          </div>
+
+          <section>
+            <h2><span>§ 1</span>About the App</h2>
+            <p>
+              <strong>ማሕሌት ዘቅዱስ ያሬድ</strong> lets you read the Wazema and
+              Mahilet liturgical texts (ሥርዓተ ዋዜማ and ሥርዓተ ማኅሌት) for the feast
+              days of each month, and lets you share them or save them as a PDF.
+              The yearly content is included with the App for you to read.
+            </p>
+          </section>
+
+          <section>
+            <h2><span>§ 2</span>Information We Collect</h2>
+            <p>
+              <strong>We do not collect any personal information.</strong> The
+              App does not ask you to sign up, log in, or provide your name,
+              email address, phone number, location, or any other personal
+              detail.
+            </p>
+            <p>
+              The App does not include analytics, advertising, crash-reporting
+              or tracking tools, and we do not run a server or database that
+              receives information about you or how you use the App.
+            </p>
+          </section>
+
+          <section>
+            <h2><span>§ 3</span>Sharing &amp; Saving as PDF</h2>
+            <p>
+              When you choose to share a text or save it as a PDF, this is done
+              on your own device using your device's standard sharing and file
+              features.
+            </p>
+            <ul class="plain">
+              <li>Saved PDFs are stored where you choose to save them.</li>
+              <li>
+                When you share, the content goes to the app or person
+                <em>you</em> select. We never see it and it is not sent to us.
+              </li>
+              <li>
+                What those other apps do with shared content is governed by
+                their own privacy policies.
+              </li>
+            </ul>
+          </section>
+
+          <section>
+            <h2><span>§ 4</span>Advertising &amp; Third Parties</h2>
+            <p>
+              The App contains <strong>no advertisements</strong> and does not
+              share any data with advertisers, data brokers, or other third
+              parties, because there is no data to share.
+            </p>
+          </section>
+
+          <section>
+            <h2><span>§ 5</span>Permissions</h2>
+            <p>
+              The App does not require access to your contacts, camera,
+              microphone, location, or personal files.
+            </p>
+          </section>
+
+          <section>
+            <h2><span>§ 6</span>Children's Privacy</h2>
+            <p>
+              Since the App collects no personal information from anyone, it
+              collects none from children. The App is suitable for readers of
+              all ages.
+            </p>
+          </section>
+
+          <section>
+            <h2><span>§ 7</span>Changes to This Policy</h2>
+            <p>
+              If the App's features change in a way that affects your privacy,
+              we will update this page and revise the effective date above.
+            </p>
+          </section>
+
+          <div class="contact">
+            <h2>Contact the Developer</h2>
+            <p>Questions about this policy or the App? Write to us at</p>
+            <a href="mailto:mesaylema21@gmail.com">mesaylema21@gmail.com</a>
+          </div>
+
+          <footer>ማሕሌት ዘቅዱስ ያሬድ · Privacy Policy · © 2026</footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
